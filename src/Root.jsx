@@ -1,10 +1,13 @@
 import React from "react";
 import Introduce from "./components/introduce";
+import { BrowserRouter } from "react-router-dom";
 
 const Root = () => {
   return (
     <div>
-      <Introduce />
+        <BrowserRouter>
+            <Introduce />
+        </BrowserRouter>
     </div>
   );
 };
